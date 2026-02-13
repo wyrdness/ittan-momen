@@ -1,10 +1,8 @@
 {
-  "category": "ENTITY_SPIRIT",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/ittan-momen",
     "maintainers": [
       {
@@ -18,319 +16,110 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "ittan-momen",
-    "name": "Ittan-momen",
-    "aliases": [
-      {
-        "name": "一反木綿",
-        "language": "Japanese",
-        "romanization": "ittan-momen",
-        "meaning": "one-tan of cotton"
-      },
-      {
-        "name": "Flying Cotton",
-        "language": "English",
-        "region": "Translation"
-      },
-      {
-        "name": "Cotton Cloth Spirit",
-        "language": "English",
-        "region": "Descriptive"
-      }
-    ],
-    "category": "ENTITY_SPIRIT",
-    "subcategory": "Japanese Yokai",
+    "name": "Ittan-momen (一反木綿)",
+    "aliases": [],
+    "category": "|",
+    "subcategory": "Animated Object / Regional Spirit",
     "tags": [
-      "yokai",
-      "japanese-folklore",
-      "flying",
-      "cloth",
-      "dangerous",
-      "regional",
-      "kagoshima",
-      "supernatural-attack"
+      "&-themes"
     ],
-    "status": "traditional_folklore",
+    "status": "documented",
     "description": {
-      "summary": "A flying cloth strip yokai from southern Japan. Appearing as a long white cotton cloth (approximately 10 meters/33 feet), ittan-momen flies through the night sky and attacks by wrapping around victims' heads and necks, smothering or strangling them.",
-      "full": "Ittan-momen (一反木綿, 'one-tan of cotton') is a dangerous yokai from Japanese folklore, particularly associated with Kagoshima Prefecture in southern Japan. The name refers to a traditional Japanese measurement: one tan is approximately 10 meters or 33 feet in length. This yokai appears as a long strip of plain white cotton cloth that flies through the night sky, seemingly animate with no visible features—no eyes, mouth, or other characteristics. Despite its mundane appearance as simple cloth, ittan-momen is a deadly threat. It attacks humans by silently flying at them and wrapping around their head and neck, smothering or strangling victims to death. The cloth possesses surprising strength and cannot be easily torn or removed once it has wrapped around someone. Ittan-momen represents the Japanese folkloric theme of supernatural danger lurking in everyday, mundane objects—the terror of the familiar made uncanny. While it gained nationwide recognition through the popular manga and anime GeGeGe no Kitaro (where it appears as a friendly character), traditional folklore portrays ittan-momen as a genuinely dangerous yokai. The phenomenon exemplifies regional yokai traditions from southern Japan and represents how even the most ordinary objects can become sources of supernatural threat in Japanese folklore."
+      "summary": "Ittan-momen (一反木綿, \\\"one-tan of cotton\\\") is a dangerous yokai from southern Japan, particularly associated with Kagoshima Prefecture on Kyushu island.",
+      "full": "Ittan-momen (一反木綿, \\\"one-tan of cotton\\\") is a dangerous yokai from southern Japan, particularly associated with Kagoshima Prefecture on Kyushu island. Unlike many whimsical or harmless yokai, ittan-momen is genuinely deadly. This yokai appears as a long strip of plain white cotton cloth—approximately **10 meters (33 feet)** long, the length of one traditional \\\"tan\\\" measurement. It has no visible features: no face, no eyes, no mouth, no appendages. Just a simple, featureless strip of white cotton cloth. Yet this mundane appearance belies its lethal nature. Ittan-momen flies silently through the night sky and attacks humans by wrapping around their heads and necks, **suffocating or strangling victims to death**. The cloth possesses surprising strength and cannot be easily torn or removed once it has ensnared someone. This yokai represents a powerful theme in Japanese folklore: **the terror of the familiar made uncanny**—even the most ordinary household object can become a source of supernatural danger."
     },
     "etymology": {
-      "origin": "From Japanese 一反 (ittan, a traditional measurement of cloth length, approximately 10 meters) and 木綿 (momen, 'cotton')",
-      "meaning": "One tan of cotton, referring to a standard bolt of cotton cloth",
-      "first_use": "Regional folklore from Kagoshima Prefecture, documented in modern yokai collections"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
-      "category": "ENTITY_SPIRIT",
-      "type": "Yokai",
-      "subtype": "Animated Object / Regional Spirit",
-      "variant": "Southern Japan (Kyushu)"
+      "category": "|",
+      "type": "Animated Object / Regional Spirit",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "tsukumogami",
-        "name": "Tsukumogami",
-        "relationship": "possibly_related",
-        "description": "Animated objects; ittan-momen may or may not be tsukumogami depending on interpretation"
-      },
-      {
-        "id": "noppera-bo",
-        "name": "Noppera-bo",
-        "relationship": "thematic",
-        "description": "Faceless yokai; both lack visible features"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "appearance": {
-        "description": "Long strip of plain white cotton cloth",
-        "features": [
-          "No visible face or features",
-          "No eyes, mouth, or appendages",
-          "Plain white color",
-          "Appears as ordinary cotton cloth",
-          "Smooth, featureless surface"
-        ]
-      },
-      "size": {
-        "length": {
-          "value": 10,
-          "unit": "meters",
-          "traditional": "One tan (approximately 33 feet)",
-          "note": "Standard bolt of cloth length"
-        },
-        "width": "Standard cloth width (approximately 30-40 cm)"
-      },
-      "material": "White cotton cloth (momen)",
-      "notable_characteristic": "Completely featureless, appears as mundane object"
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Flight",
-        "description": "Flies silently through the night sky",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Animate movement",
-        "description": "Moves with apparent intent and purpose despite being cloth",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Constriction/suffocation",
-        "description": "Wraps tightly around victims' heads and necks",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Strength",
-        "description": "Possesses surprising strength, difficult to tear or remove",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Silent approach",
-        "description": "Attacks silently without warning",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "disposition": "dangerous",
-      "temperament": [
-        "Predatory",
-        "Aggressive",
-        "Silent",
-        "Deadly"
-      ],
-      "attack_method": {
-        "approach": "Flies silently through night air",
-        "strike": "Wraps around victim's head and neck",
-        "result": "Smothers or strangles victim to death"
-      },
-      "notable_behaviors": [
-        "Flying through night sky",
-        "Silent attacks on humans",
-        "Wrapping around heads and necks",
-        "Suffocating or strangling victims"
-      ],
-      "activity_period": "nocturnal",
-      "habitat": [
-        "Night sky",
-        "Rural areas",
-        "Open spaces where it can fly"
-      ],
-      "danger_level": "high"
-    },
-    "lethality": {
-      "threat_level": "Potentially lethal",
-      "method": "Suffocation or strangulation",
-      "defense": "Difficult to remove once wrapped; tearing cloth is challenging"
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Regional yokai from southern Japan, particularly associated with Kagoshima Prefecture on Kyushu island",
-      "continents": ["Asia"],
-      "countries": ["Japan"],
-      "regions": [
-        "Kagoshima Prefecture (primary origin)",
-        "Southern Kyushu",
-        "Regional southern Japan folklore"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "cultural_context": {
-      "period": "Traditional regional folklore, popularized in modern era",
-      "regional_significance": "Important example of regional yokai tradition from southern Japan",
-      "cultural_significance": "Represents transformation of everyday objects into supernatural threats"
+    "hotspots": [],
+    "temporal": {
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Regional folklore from Kagoshima Prefecture in southern Japan",
-      "earliest_accounts": "Traditional oral folklore, documented in modern yokai collections",
-      "folklore_connections": "Connected to broader Japanese tradition of mundane objects as supernatural threats"
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "symbolism": {
-      "mundane_made_uncanny": "Ordinary cotton cloth becomes deadly threat",
-      "invisible_danger": "Lacks visible features yet poses grave danger",
-      "everyday_terror": "Even common household items can be sources of supernatural threat"
-    },
-    "cultural_impact": [
-      {
-        "aspect": "Regional yokai identity",
-        "description": "Important example of Kagoshima/Kyushu regional folklore"
-      },
-      {
-        "aspect": "Popular culture transformation",
-        "description": "GeGeGe no Kitaro transformed dangerous yokai into friendly character"
-      },
-      {
-        "aspect": "Folkloric theme",
-        "description": "Exemplifies 'supernatural in the mundane' theme"
-      }
-    ],
-    "modern_era": "While traditional folklore portrays ittan-momen as dangerous, modern media (particularly GeGeGe no Kitaro manga/anime) has reimagined it as a friendly, helpful character. This represents the evolution of regional yokai into national popular culture icons."
+    "timeline": []
   },
-
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Kagoshima Prefecture regional folklore",
-        "Southern Kyushu yokai traditions",
-        "Regional ghost stories and warnings"
-      ],
-      "stories": [
-        "Tales of nighttime attacks by flying cloth",
-        "Warnings about traveling at night in rural areas",
-        "Stories of suffocation by mysterious white cloth"
-      ],
-      "beliefs": "Even mundane objects like cloth can harbor supernatural danger; nighttime travel carries risks"
-    },
-    "regional_identity": {
-      "kagoshima_connection": "Strongly associated with Kagoshima Prefecture",
-      "southern_japan": "Part of southern Kyushu's distinct yokai tradition",
-      "local_folklore": "Represents importance of regional variation in Japanese folklore"
-    },
-    "cultural_sensitivity": {
-      "note": "Ittan-momen represents regional Japanese folklore tradition",
-      "respect_guidelines": "Understand as genuine regional cultural tradition, not merely popular culture character"
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "gegege_no_kitaro": {
-        "description": "Most famous modern appearance; portrayed as friendly, helpful character",
-        "transformation": "Dangerous yokai reimagined as ally and transportation",
-        "impact": "Brought regional yokai to national attention"
-      },
-      "anime_manga": [
-        "GeGeGe no Kitaro (most prominent)",
-        "Various yokai-themed anime and games",
-        "Modern friendly interpretations"
-      ],
-      "games": [
-        "Yokai-themed video games",
-        "Japanese RPGs featuring yokai"
-      ],
-      "other": [
-        "Merchandise and character goods",
-        "Regional tourism connections",
-        "Modern yokai media"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "theories": {
-    "folkloric": [
-      {
-        "name": "Animated cloth spirit",
-        "description": "Cotton cloth that has gained life and malevolent intent",
-        "basis": "Traditional yokai belief in objects gaining supernatural nature"
-      },
-      {
-        "name": "Possible tsukumogami",
-        "description": "May be old cloth that gained sentience, though this is not always specified",
-        "basis": "Some interpretations classify it as tsukumogami"
-      }
-    ],
-    "cultural": [
-      {
-        "name": "Mundane terror symbolism",
-        "description": "Represents fear of the familiar becoming dangerous and uncanny",
-        "basis": "Folkloric theme of everyday objects as supernatural threats"
-      },
-      {
-        "name": "Nighttime danger allegory",
-        "description": "May symbolize real dangers of nighttime travel in rural areas",
-        "basis": "Practical warning embedded in folklore"
-      },
-      {
-        "name": "Regional identity marker",
-        "description": "Represents distinct cultural identity of southern Japan/Kagoshima",
-        "basis": "Regional folklore as cultural expression"
-      }
-    ],
-    "modern_interpretation": [
-      {
-        "name": "Popular culture transformation",
-        "description": "Evolution from dangerous yokai to friendly character reflects changing relationship with folklore",
-        "basis": "GeGeGe no Kitaro and modern media adaptations"
-      }
-    ]
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "foster-2015",
-      "type": "book",
-      "title": "The Book of Yokai: Mysterious Creatures of Japanese Folklore",
-      "authors": ["Michael Dylan Foster"],
-      "publication": "University of California Press",
-      "date": "2015",
-      "isbn": "978-0520271029"
-    },
-    {
-      "id": "mizuki-gegege",
-      "type": "manga",
-      "title": "GeGeGe no Kitaro",
-      "authors": ["Mizuki Shigeru"],
-      "note": "Popularized ittan-momen in modern Japanese culture"
-    },
-    {
-      "id": "yokai-database",
-      "type": "website",
-      "title": "Yokai.com Database - Ittan-momen",
-      "url": "https://yokai.com/ittanmomen/",
-      "accessed": "2026-01-14"
-    }
-  ]
+  "sources": []
 }
