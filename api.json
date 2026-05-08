@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/ittan-momen",
     "maintainers": [
       {
@@ -16,71 +16,127 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "ittan-momen",
-    "name": "Ittan-momen (一反木綿)",
-    "aliases": [],
-    "category": "|",
-    "subcategory": "Animated Object / Regional Spirit",
+    "name": "Ittan-momen",
+    "aliases": [
+      { "name": "一反木綿", "language": "Japanese", "region": "Kagoshima Prefecture", "meaning": "One bolt of cotton / one tan of cotton cloth" }
+    ],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Animated object / dangerous yokai",
     "tags": [
-      "&-themes"
+      "japanese",
+      "yokai",
+      "kagoshima",
+      "kyushu",
+      "animated-object",
+      "cloth",
+      "nocturnal",
+      "suffocation",
+      "japan"
     ],
     "status": "documented",
     "description": {
-      "summary": "Ittan-momen (一反木綿, \\\"one-tan of cotton\\\") is a dangerous yokai from southern Japan, particularly associated with Kagoshima Prefecture on Kyushu island.",
-      "full": "Ittan-momen (一反木綿, \\\"one-tan of cotton\\\") is a dangerous yokai from southern Japan, particularly associated with Kagoshima Prefecture on Kyushu island. Unlike many whimsical or harmless yokai, ittan-momen is genuinely deadly. This yokai appears as a long strip of plain white cotton cloth—approximately **10 meters (33 feet)** long, the length of one traditional \\\"tan\\\" measurement. It has no visible features: no face, no eyes, no mouth, no appendages. Just a simple, featureless strip of white cotton cloth. Yet this mundane appearance belies its lethal nature. Ittan-momen flies silently through the night sky and attacks humans by wrapping around their heads and necks, **suffocating or strangling victims to death**. The cloth possesses surprising strength and cannot be easily torn or removed once it has ensnared someone. This yokai represents a powerful theme in Japanese folklore: **the terror of the familiar made uncanny**—even the most ordinary household object can become a source of supernatural danger."
+      "summary": "Ittan-momen (一反木綿, 'one bolt of cotton') is a dangerous yokai from Kagoshima Prefecture in southern Japan, appearing as a long white strip of cotton cloth that flies through the night sky and kills humans by wrapping around their heads and necks.",
+      "full": "Ittan-momen (一反木綿) is a yokai originating in the folklore of Kōyama, Kimotsuki District, Kagoshima Prefecture (now Kimotsuki), in southern Kyushu, Japan. The name translates as 'one bolt of cotton' or 'one tan of cotton cloth,' where tan (反) is a traditional measurement unit for cloth approximately 10.6 meters long and 30 centimeters wide. The creature appears as a featureless long strip of plain white cotton cloth of approximately this length — no visible eyes, mouth, or appendages in traditional accounts. Despite this mundane appearance, the ittan-momen is genuinely lethal: it flies silently through the night sky and attacks humans by wrapping around their heads and necks, suffocating or strangling them to death. In some accounts the cloth spins rapidly as it attacks, wrapping victims and carrying them into the sky. The yokai exemplifies the Japanese folklore motif of the tsukumogami — objects that acquire supernatural life and often malevolent agency after 100 years of existence. Documentation of the ittan-momen appears in the Ōsumi Kimotsukigun Hōgen Shū, jointly authored by educator Nomura Denshi and folklorist Kunio Yanagita. Historians of the tradition suggest that the legend may have originated in two mundane sources: parents inventing frightening stories to discourage children from playing outside at night while adults performed farmwork, and the sight of cotton mourning flags blown by wind during funerals. Modern depictions, popularized through Mizuki Shigeru's manga series GeGeGe no Kitarō, show the ittan-momen with two eyes and arms — artistic additions not present in traditional accounts. The creature ranked first in Sakaiminato's 'First Yōkai Popularity Poll.'"
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Japanese: 一反 (ittan, one tan — a cloth measurement unit) + 木綿 (momen, cotton). The name directly describes the creature's appearance as a bolt of cotton of traditional length.",
+      "meaning": "One bolt of cotton cloth; the name is a literal description of the creature's appearance.",
+      "first_use": "Documented in the Ōsumi Kimotsukigun Hōgen Shū (regional dialect and folklore record); precise date not established from sources."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "|",
-      "type": "Animated Object / Regional Spirit",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "ENTITY_SPIRIT",
+      "type": "Tsukumogami (animated object)",
+      "subtype": "Flying cloth yokai",
+      "variant": "Kagoshima / southern Kyushu"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "fusuma-yokai", "name": "Fusuma (yokai)", "relationship": "similar", "description": "Bedding-like creature from Sado Island; Edo period animated fabric yokai" },
+      { "id": "futon-kabuse", "name": "Futon kabuse", "relationship": "similar", "description": "Futon-shaped yokai from Aichi Prefecture; animated bedding class" },
+      { "id": "tsukumogami", "name": "Tsukumogami", "relationship": "superset", "description": "The broader class of objects that acquire spiritual life; ittan-momen is a member of this class" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Long white cotton strip", "description": "Appears as approximately 10.6 meters (one tan) of plain white cotton cloth; no distinguishing facial features in traditional accounts", "frequency": "always" },
+        { "feature": "Featureless (traditional)", "description": "Traditional accounts describe no eyes, mouth, or appendages; the cloth is entirely featureless", "frequency": "always" },
+        { "feature": "Eyes and arms (Mizuki Shigeru depiction)", "description": "Post-Mizuki popular depictions add two eyes and two arms; these are artistic additions not from the original folklore", "frequency": "occasional" }
+      ],
+      "morphology": "A long, thin, flat strip of white cotton cloth approximately 10.6 meters long and 30 cm wide. No visible biological features in traditional descriptions; the creature's malevolent agency is supernatural rather than physical."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Flight", "description": "Flies silently through the night sky despite being a piece of cloth", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Suffocation / strangulation", "description": "Wraps around the head and neck of victims, suffocating or strangling them to death; the cloth is supernaturally strong and difficult to remove once it has ensnared someone", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Aerial abduction", "description": "Some accounts describe the cloth spinning rapidly, wrapping victims, and carrying them into the sky", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["rural roads at night", "open areas after dark", "Kagoshima region"],
+      "diet": "Not applicable",
+      "patterns": [
+        "Flies silently; victims may have no warning before attack",
+        "Attacks humans outdoors at night",
+        "Concentrates attack on the head and neck area"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Originating in Kōyama, Kimotsuki District, Kagoshima Prefecture, southern Kyushu. Modern sightings reported more broadly across Kyushu, Tokyo, and Shizuoka.",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": [
+        "Kagoshima Prefecture (primary)",
+        "Kimotsuki District, Kagoshima",
+        "Fukuoka Prefecture",
+        "Kyushu broadly",
+        "Tokyo (Higashi-Kōenji Station, Ogikubo)",
+        "Shizuoka Prefecture"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Kōyama, Kimotsuki",
+        "location": {
+          "description": "Kimotsuki town (formerly Kōyama), Kimotsuki District, Kagoshima Prefecture",
+          "country": "Japan",
+          "region": "Kagoshima Prefecture"
+        },
+        "notes": "Origin location of the ittan-momen tradition; documented in the Ōsumi Kimotsukigun Hōgen Shū"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-modern",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Ōsumi Kimotsukigun Hōgen Shū (Nomura Denshi and Kunio Yanagita)"
+      },
+      "peak_activity_periods": [
+        { "period": "20th century onward", "description": "Popularization through Mizuki Shigeru's GeGeGe no Kitarō manga made the ittan-momen nationally recognized" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Southern Kyushu regional folklore, documented in the Ōsumi Kimotsukigun Hōgen Shū by folklorist Kunio Yanagita and educator Nomura Denshi. The legend is interpreted as possibly arising from two mundane sources: parents' warnings to keep children indoors at night, and cotton mourning flags blown by wind during burials.",
+      "earliest_accounts": "Documented in the Ōsumi Kimotsukigun Hōgen Shū; the precise date of origin is not established in available sources.",
+      "folklore_connections": "Belongs to the tsukumogami tradition — objects that acquire supernatural life — and to the class of flying/entangling supernatural cloth beings in Japanese folklore, including the fusuma (Sado Island) and futon kabuse (Aichi)."
     },
-    "timeline": []
+    "timeline": [],
+    "modern_era": "The ittan-momen was nationally popularized through Mizuki Shigeru's manga series GeGeGe no Kitarō, in which it appears as a friendly character assisting the protagonist — inverting the traditional threatening nature. It ranked first in Sakaiminato's 'First Yōkai Popularity Poll' and has become one of the most recognizable yokai in popular Japanese culture."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -91,35 +147,96 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "ittan-momen-evidence-osumi",
+        "type": "archive",
+        "name": "Ōsumi Kimotsukigun Hōgen Shū",
+        "description": "Regional dialect and folklore record co-authored by educator Nomura Denshi and folklorist Kunio Yanagita; primary documentation of the ittan-momen tradition.",
+        "status": "verified",
+        "analysis": "Primary academic source for the ittan-momen. Kunio Yanagita is a foundational figure in Japanese folklore studies.",
+        "source": "Nomura Denshi; Kunio Yanagita"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Tsukumogami (animated object spirit)",
+        "description": "Within Japanese folk belief, the ittan-momen is a tsukumogami — a piece of cloth that has accumulated spiritual energy over time and achieved supernatural animation, with inherent malevolence toward humans.",
+        "proponents": ["Traditional Japanese folklore belief"],
+        "evidence_cited": ["Classification within established Japanese yokai taxonomy", "Consistent regional oral tradition documentation"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Wind-blown mourning cloth misidentification",
+        "description": "The ittan-momen legend may originate in the frightening sight of long white cotton mourning flags blown in the wind during nighttime funerals, providing a visual stimulus that was transformed into supernatural narrative.",
+        "proponents": ["Wikipedia / Ittan-momen article"],
+        "evidence_cited": ["White color matches traditional mourning cloth", "Flying behavior consistent with wind-blown fabric", "Nighttime occurrence of attacks matches nighttime funeral processions"]
+      },
+      {
+        "name": "Parental warning narrative",
+        "description": "Parents in Kagoshima invented the ittan-momen story to frighten children into staying indoors at night while adults performed farmwork, providing a functional social purpose for the legend.",
+        "proponents": ["Wikipedia / Ittan-momen article"],
+        "evidence_cited": ["Pattern consistent with other nighttime-restriction yokai stories", "Agricultural community context"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Kagoshima Prefecture regional yokai tradition",
+        "Southern Kyushu tsukumogami folklore"
+      ],
+      "stories": [
+        "The ittan-momen flies silently through the night sky and wraps around the heads and necks of travelers, suffocating them",
+        "Some accounts describe it spinning rapidly and carrying victims into the sky"
+      ],
+      "beliefs": "In Kagoshima regional tradition, the ittan-momen represents the uncanny danger that can lurk in the most ordinary objects. It embodies the broader Japanese folkloric anxiety that prolonged neglect or improper use of everyday objects can allow them to develop malevolent spiritual agency."
     },
     "popular_culture": {
       "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "film_tv": [
+        "GeGeGe no Kitarō (anime, multiple series beginning 1968) — ittan-momen appears as a friendly flying transport character",
+        "Yokai Watch franchise — various animated cloth yokai"
+      ],
+      "games": [
+        "Various Japanese video games featuring yokai rosters include ittan-momen"
+      ],
+      "other": [
+        "Ranked first in Sakaiminato's 'First Yōkai Popularity Poll'",
+        "Mizuki Shigeru Museum (Sakaiminato) features ittan-momen as a prominent exhibit character"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Kunio Yanagita", "affiliation": "Japanese folklore studies (minzokugaku)", "contribution": "Co-documented ittan-momen in the Ōsumi Kimotsukigun Hōgen Shū; foundational figure in Japanese folklore scholarship", "period": "Early 20th century" },
+      { "name": "Mizuki Shigeru", "affiliation": "Manga artist", "contribution": "Popularized ittan-momen nationally through GeGeGe no Kitarō manga; added visual details (eyes, arms) not in original tradition", "period": "1960s onward" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "The ittan-momen is studied within Japanese folklore studies (minzokugaku) and material culture studies of the tsukumogami tradition."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-ittan-momen",
+      "type": "website",
+      "title": "Ittan-momen",
+      "url": "https://en.wikipedia.org/wiki/Ittan-momen",
+      "accessed": "2026-05-08"
+    }
+  ]
 }
